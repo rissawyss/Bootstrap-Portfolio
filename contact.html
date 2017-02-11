@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marissa Wyss</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<!-- Page Header split into 4 and 8 for logo and nav links, respectively-->
+	<div class="container" id="hdr">
+		<div class="page-header">
+			<!--Logo  -->
+	  		<div class="col-xs-4">
+	  				<div class="col-xs-9 col-xs-offset-3">
+	  					<h1 class="mylogo"><a href="index.html">Marissa Wyss</a></h1>
+	  				</div>
+	  		</div>
+			<!--Nav links pulled to the right -->
+	  		<div class="pull-right">
+	  			<div class="navlinksec">
+					<div class="col-xs-8">
+		  				<div class="col-xs-4"><h3 class="mynav"><small><a href="index.html">About</a></small></h3></div>
+		  				<div class="col-xs-4"><h3 class="mynav" id="navctr"><small><a href="portfolio.html">Portfolio</a></small></h3></div>
+		  				<div class="col-xs-4"><h3 class="mynav" id="navright"><small><a href="contact.html">Contact</a></small></h3></div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of page header -->
+	</div> <!-- end of container -->
+
+	<!-- Container for main section, split into 8 and 4 for About Me and Connect with Me respectively-->
+	<div class="container">
+		<div class="mainsection">
+			<!-- About Me with h3 header, & image floated left to make paragraph wrap. Offset by 1 column-->
+			<div class="col-xs-8">
+				<div class="col-xs-offset-1 col-xs-11" id="profilebox">
+					<h3 class="abtme">Contact</h3>
+					
+					<form>
+
+						<div class="form-group"> <!-- Name field -->
+							<label class="control-label " for="name">Name</label>
+							<input class="form-control" id="name" name="name" type="text"/>
+						</div>
+						
+						<div class="form-group"> <!-- Email field -->
+							<label class="control-label requiredField" for="email">Email</label>
+							<input class="form-control" id="email" name="email" type="text"/>
+						</div>
+						
+						<div class="form-group"> <!-- Message field -->
+							<label class="control-label " for="message">Message</label>
+							<textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+						</div>
+						
+						<div class="form-group">
+							<button class="btn btn-primary " name="submit" type="submit">Submit</button>
+						</div>
+	
+					</form>	
+
+			  	</div>
+			</div>
+			<!-- Connect With Me with h4 header, Offset by 3 columns, image & links to GitHub, LinkedIn, StackOverflow -->
+			<div class="col-xs-4">
+				<div class="col-xs-offset-3 col-xs-9" id="connectbox">
+				<h4 class="abtme">Connect With Me</h4>
+				<!-- GitHub -->
+				<a href="https://github.com/rissawyss" target="_blank"><img class="linkpic" src="assets/images/1485960676_github_square_black.png" alt="GitHub"></a>
+				<!-- LinkedIn -->
+				<a href="https://www.linkedin.com/in/marissawyss" target="_blank"><img class="linkpic" src="assets/images/1485960550_square-linkedin.png" alt="LinkedIn"></a>
+				<!-- StackOverflow -->
+				<a href="http://stackoverflow.com/users/7428109/marissa-wyss?tab=profile" target="_blank"><img class="linkpic" src="assets/images/1486012302_stackoverflow-square-social-media.png" alt="StackOverflow"></a>
+				</div>
+			</div>
+		</div> <!-- end of main section -->
+	</div> <!-- end of container -->
+
+
+	<div class="panel-body">
+	 	<div class="footer">
+	    	&copy; Copyright 2017 Marissa Wyss
+	    </div>
+	</div>
+
+</body>
+</html>
