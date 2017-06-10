@@ -101,6 +101,10 @@ form {
 	font-size: 1.3em;
 }
 
+.portlink {
+	color: #ffffff;
+}
+
 .thumbnail {
     position: relative;
 }
