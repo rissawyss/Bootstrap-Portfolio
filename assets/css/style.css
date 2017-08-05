@@ -80,7 +80,7 @@ form {
 	margin-top: 30px;
 }
 
-.caption {
+/*.caption {
 	position: absolute;
 	bottom: 30px;
 	top: 45%;
@@ -94,7 +94,7 @@ form {
   	border-bottom: 0;
   	padding: 5 0 5 0;
 }
-
+*/
 
 .projname {
 	color: #ffffff;
@@ -105,9 +105,9 @@ form {
 	color: #ffffff;
 }
 
-.thumbnail {
+/*.thumbnail {
     position: relative;
-}
+}*/
 
 #profilebox {
 	margin-left: 20px;
@@ -139,4 +139,31 @@ form {
 .btn-primary {
 	background-color: #4aaaa5;
 	border: none;
+}
+
+/*//==================================*/
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail:hover .caption {
+    top:0%;
 }
