@@ -109,6 +109,12 @@ form {
     position: relative;
 }*/
 
+.portdesc {
+	border-top: 1px solid #efefef;
+	padding-top: 10px;
+}
+
+
 #profilebox {
 	margin-left: 20px;
 }
